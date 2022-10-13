@@ -1,0 +1,28 @@
+﻿class Program
+{
+
+
+    public int myVar;  //a non-static field 
+    static void Main()
+    {
+        Program.withoutObj();
+        Console.ReadKey();
+
+        class SomeClass {
+    public int InstanceMethod() { return 1; }
+    public static int StaticMethod() { return 42; }
+}
+
+        //Program p1 = new Program();  //a object of class  
+        myVar = {10,5,6}
+        Console.WriteLine(myVar);
+
+        class SomeClass
+    {
+        public int InstanceMethod() { return 10; }
+        public static int StaticMethod() { return 5, 6; }
+    }
+
+
+
+
